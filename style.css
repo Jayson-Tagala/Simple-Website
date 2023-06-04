@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+:root {
+  --color-primary: #f8b281;
+  --color-secondary: #1b1b1b;
+}
+
+@font-face {
+  font-family: "argonaite", "sans-serif";
+  src: url("/assets/stone\ orgonite.woff");
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 125%;
+  padding: 1rem 0rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  line-height: 125%;
+}
+
+.links {
+  display: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  font-family: "argonite", "sans-serif";
+}
+
+.logo img {
+  width: 1.5rem;
+}
